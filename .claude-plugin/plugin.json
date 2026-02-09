@@ -1,0 +1,19 @@
+{
+  "name": "el-sendgrid",
+  "version": "1.0.0",
+  "description": "SendGrid Inbound Parse event source for the el plugin. Receive emails via webhook.",
+  "author": {
+    "name": "Tim Garthwaite",
+    "url": "https://github.com/mividtim"
+  },
+  "repository": "https://github.com/mividtim/claude-code-el-sendgrid",
+  "license": "MIT",
+  "keywords": ["el", "sendgrid", "email", "webhook", "events"],
+  "dependencies": {
+    "el": {
+      "marketplace": "mividtim",
+      "source": "mividtim/claude-code-event-listeners",
+      "version": ">=0.7.0"
+    }
+  }
+}

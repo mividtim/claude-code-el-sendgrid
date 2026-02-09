@@ -2,7 +2,9 @@
 # sendgrid — One-shot SendGrid Inbound Parse webhook listener for Claude Code.
 #
 # Community event source for claude-code-event-listeners.
-# Install: /el:register ./sendgrid.sh
+# Install: claude plugin marketplace add mividtim/claude-code-el-sendgrid
+#          claude plugin install el-sendgrid
+# Or manually: /el:register ./sources.d/sendgrid.sh
 #
 # Listens on 0.0.0.0:PORT for SendGrid Inbound Parse webhook POSTs.
 # Outputs clean email JSON to stdout on the first inbound email, then exits.

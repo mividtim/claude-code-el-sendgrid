@@ -5,8 +5,13 @@ Community event source for [claude-code-event-listeners](https://github.com/mivi
 ## Install
 
 ```bash
+# From the marketplace (recommended — auto-discovers, pulls in el as dependency)
+claude plugin marketplace add mividtim/claude-code-el-sendgrid
+claude plugin install el-sendgrid
+
+# Or manually register the source
 git clone https://github.com/mividtim/claude-code-el-sendgrid.git
-/el:register ./claude-code-el-sendgrid/sendgrid.sh
+/el:register ./claude-code-el-sendgrid/sources.d/sendgrid.sh
 ```
 
 ## Prerequisites
