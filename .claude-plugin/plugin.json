@@ -8,12 +8,5 @@
   },
   "repository": "https://github.com/mividtim/claude-code-el-sendgrid",
   "license": "MIT",
-  "keywords": ["el", "sendgrid", "email", "webhook", "events"],
-  "dependencies": {
-    "el": {
-      "marketplace": "mividtim",
-      "source": "mividtim/claude-code-event-listeners",
-      "version": ">=0.7.0"
-    }
-  }
+  "keywords": ["el", "sendgrid", "email", "webhook", "events"]
 }
